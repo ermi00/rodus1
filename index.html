@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>r/rodus1</title>
+</head>
+
+<body>
+    <h1>RODUS1</h1>
+    <!-- <p>Cada vez que encuentras un sticker mio, el contador de esta pagina aumenta. Claro, despues de escanear el codigo qr.</p> -->
+    <model-viewer src="rodus3D.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral"
+        poster="poster.webp" shadow-intensity="1" camera-orbit="-276.9deg 81.32deg 7.027m" field-of-view="30deg"
+        auto-rotate autoplay>
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+    </model-viewer>
+
+
+    <button>Instagram</button>
+</body>
+
+</html>
