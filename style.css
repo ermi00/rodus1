@@ -50,6 +50,7 @@ a {
     font-size: 20px;
     display: flex;
     align-items: center;
+    transition: 0.5s;
 }
 
 .divRedesSociales {
@@ -67,4 +68,66 @@ a {
 .divInstrucciones {
     display: flex;
     align-items: center;
+}
+
+.pComputadoras {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .divMain {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    h2 {
+        width: 310px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .imgIconViewModel {
+        width: 50px;
+    }
+
+    .divRedesSociales {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .divMain {
+        width: 100%;
+    }
+
+    model-viewer {
+        width: 60%;
+        height: 90vh;
+    }
+
+    .sectionInformacion {
+        width: 40%;
+    }
+
+    .divRedesSociales {
+        justify-content: flex-start;
+    }
+
+    .pComputadoras{
+        display: block;
+        justify-content: center;
+    }
+}
+
+a:hover {
+    color: black;
+    transition: 0.5s;
 }
