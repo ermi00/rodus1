@@ -4,19 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <link rel="stylesheet" href="./style.css">
     <title>r/rodus1</title>
 </head>
 
 <body>
-    <h1>RODUS1</h1>
-    <!-- <p>Cada vez que encuentras un sticker mio, el contador de esta pagina aumenta. Claro, despues de escanear el codigo qr.</p> -->
+    <h1>r/rodus1</h1>
     <model-viewer src="rodus3D.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral"
         poster="poster.webp" shadow-intensity="1" camera-orbit="-276.9deg 81.32deg 7.027m" field-of-view="30deg"
         auto-rotate autoplay>
@@ -25,8 +19,22 @@
         </div>
     </model-viewer>
 
-
-    <button>Instagram</button>
+    <section>
+        <h2>Explora el modelo en 3D</h2>
+        <div class="divInstrucciones">
+            <img class="imgIconViewModel" src="./iconViewModel.png" alt="">
+            <p>Presiona este icono para que se muestre el modelo 3D en el mundo real. Te pedira acceso a la camara de tu
+                dispositivo.</p>
+        </div>
+        <!-- <img src="./woman-yoga.jpg" alt="imagen del tutorial">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo ea tempore iure eos impedit. Perspiciatis
+            similique impedit asperiores tempora, eum animi dolorum eius facilis consectetur praesentium illum culpa
+            possimus corrupti.</p> -->
+        <div class="divRedesSociales">
+            <a href="https://www.instagram.com/erick.odd?igsh=YmUycmkzdWJoY3Fy&utm_source=qr"> <img
+                    class="instagramIcon" src="./instagramIcon.png" alt="">Instagram</a>
+        </div>
+    </section>
 </body>
 
 </html>
